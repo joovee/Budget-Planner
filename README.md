@@ -1,4 +1,4 @@
-             Budget Planner<br><br>  
+             Budget Planner
 College is a critical time in a young person’s life. Entering college means a lot of change for students: choosing a career path, broadening your social circle, and truly establishing your independence for the first time. This time of increased responsibility is the perfect time to develop healthy financial habits, and it all starts with creating and adhering to a budget. If you’re new to budgeting, then you’re not alone. Students are suddenly given free reign to manage their time and finances as they see fit, likely for the first time without any form of supervision.<br><br>
 
 
@@ -7,4 +7,4 @@ If a student hasn’t been educated on budgeting before, whether from their pare
  If you don't create a student budget you could find yourself hard up for cash, meaning you might miss out on the things you enjoy, while struggling to afford the essentials.<br><br>
 
 
-This App will help you understand the value of a budget and walk you through the process of tracking your income and expenses.<br<br>	
+This App will help you understand the value of a budget and walk you through the process of tracking your income and expenses.	
