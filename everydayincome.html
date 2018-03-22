@@ -1,0 +1,103 @@
+<html lang="en">
+
+  <head>
+<div class="col-md-20" style="background:url('picture/images.jpg');">
+
+
+
+    <title>Everyday</title>
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
+      <div class="container">
+        
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <a class="navbar-brand" href="home.html">
+			<img src="picture/logo.jpg" width="50" height="50" alt=""></a>
+ 	    </a>
+           
+            <li class="nav-item ">
+              <a class="nav-link " href="everydayincome.html" >
+               Create 
+              </a>
+            </li>
+			<li class="nav-item ">
+              <a class="nav-link " href="budgetlist.html" >
+               Budget List
+              </a>
+            </li>
+			<li class="nav-item ">
+              <a class="nav-link " href="editlist.html" >
+               Delete
+              </a>
+            </li>
+			<li class="nav-item ">
+              <a class="nav-link " href="about.html" >
+               About
+              </a>
+            </li>
+          </ul>
+        </div>
+		</button>
+    </nav><br/><br/>
+</head>
+<body>
+ <br><br><br><br><br>
+<center><h1><p class="text-warning">Everyday Income</p></h1></center>
+<div class="container">
+  <div class="row content">
+    <div class="col-sm-2 sidenav">
+      <p><a href="#"<p class="text-danger"><a href ="everydayincome.html">Everyday Income</a></a></p></p>
+	<p><a href="#"<p class="text-danger"><a href ="weeklyinside.html">Weekly Income</a></a></p></p>
+	<p><a href="#"<p class="text-danger"><a href ="monthly.html">Monthly Income</a></a></p></p>
+    </div>
+<div class="mx-auto" style="width: 200px;">
+	<form class="needs-validation" novalidate>
+	<label for="validationTooltip01">Expenses</label>
+	<div class="mx-auto" ">
+	<input type="text" class="form-control" id="validationTooltip01" placeholder="expenses" required>
+    </div>
+	<form class="needs-validation" novalidate>
+	<label for="validationTooltip01">Amount</label>
+	<div class="mx-auto" ">
+	<input type="text" class="form-control" id="validationTooltip01" placeholder="amount" required>
+    </div>
+<br>
+	 <center><button class="btn btn-primary" type="save">Save</button></center>
+	</form>
+	<script>
+// Example starter JavaScript for disabling form submissions if there are invalid fields
+(function() {
+  'use strict';
+  window.addEventListener('load', function() {
+    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+    var forms = document.getElementsByClassName('needs-validation');
+    // Loop over them and prevent submission
+    var validation = Array.prototype.filter.call(forms, function(form) {
+      form.addEventListener('submit', function(event) {
+        if (form.checkValidity() === false) {
+          event.preventDefault();
+          event.stopPropagation();
+        }
+        form.classList.add('was-validated');
+      }, false);
+    });
+  }, false);
+})();
+</script>
+
+<br><br><br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br>
+</div>
+</div>
+    </div>
+      </div>
+	 <script src="jquery/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
